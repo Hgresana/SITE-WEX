@@ -1,0 +1,16 @@
+*{
+    font-family: monospace;
+    background-image: linear-gradient(to right, #D77DE7, #AE9AF4);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main > h1 {
+    font-size: 3em;
+    color: rgb(62, 17, 68);
+}
