@@ -14,3 +14,10 @@ main > h1 {
     font-size: 3em;
     color: rgb(62, 17, 68);
 }
+
+@media (max-width: 575px){
+   main > iframe {
+    width: 100vw;
+    height: 225px;
+}
+}
