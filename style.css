@@ -8,6 +8,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
 }
 
 main > h1 {
@@ -19,5 +20,10 @@ main > h1 {
    main > iframe {
     width: 100vw;
     height: 225px;
-}
+    }
+
+    main > video {
+        width: 100vw;
+    }
+
 }
